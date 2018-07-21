@@ -148,7 +148,7 @@ func Run(completeOptions completedServerRunOptions, stopCh <-chan struct{}) erro
 	if err != nil {
 		return err
 	}
-
+	/////////////////test
 	return server.PrepareRun().Run(stopCh)
 }
 
